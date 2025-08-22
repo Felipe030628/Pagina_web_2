@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar Stock - Inventario en Tiempo Real</title>
+</head>
+<body bgcolor="lightblue">
+
+    <!-- HEADER -->
+    <header>
+        <h1>🍻 Bar Stock</h1>
+        <h2>Inventario en Tiempo Real para Bares</h2>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#inventario">Inventario</a></li>
+            <li><a href="#formulario">Registro</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIONES -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p><b>Bienvenido a <u style="color:red;">Bar Stock</u></b>, la solución para manejar tu inventario en tiempo real desde cualquier lugar.</p>
+        <p>Escanea el siguiente código QR para acceder al menú digital:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://barstock.com/menu" alt="QR Menu Bar Stock">
+    </section>
+
+    <section id="inventario">
+        <h2>Inventario en Tiempo Real</h2>
+        <p>Controla tus <b>existencias</b>, <u style="color:blue;">bebidas</u> y <u style="color:green;">productos</u> de manera sencilla.</p>
+        <img src="vector-bar-interior-pub-paredes-ladrillo-mostrador-sillas-botellas-alcohol-menu-letrero-iluminado-lampara_1284-47287.jpg" width="250" height="250" alt="Imagen animada del bar">
+        <br>
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fgona_24_lover%2Fdise%25C3%25B1o-de-barra-de-bar%2F&psig=AOvVaw3Ktjak1-2IJ5uER4P8JOc2&ust=1755874589363000&source=images&cd=vfe&opi=89978449&ved=0CBkQ3YkBahcKEwjAqr7blJyPAxUAAAAAHQAAAAAQBA" target="_blank">
+            <img src="imagen2.jpg" alt="Imagen Bar Con Link" width="250" height="250">
+        </a>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iM7gUJ75_8w?si=PYORphTP690KZla1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>Video Explicativo Uso de inventarios online</h2>
+        <a href="https://www.sena.edu.co" target="_blank">Visita la página del SENA</a>
+
+    <section id="formulario">
+        <h2>Registro de Producto</h2>
+        <form>
+            <label>Nombre del producto:</label><br>
+            <input type="text" placeholder="Ej: Cerveza Aguila"><br><br>
+
+            <label>Cantidad:</label><br>
+            <input type="number" placeholder="Ej: 24"><br><br>
+
+            <label>Fecha de ingreso:</label><br>
+            <input type="date"><br><br>
+
+            <label>Categoría:</label><br>
+            <input type="checkbox"> Bebida<br>
+            <input type="checkbox"> Licor<br>
+            <input type="checkbox"> Snack<br><br>
+
+            <label>¿Disponible en el menú QR?</label><br>
+            <input type="radio" name="disponible"> Sí<br>
+            <input type="radio" name="disponible"> No<br><br>
+
+            <button type="submit">Registrar Producto</button>
+        </form>
+    </section>
+
+    <section id="tabla">
+        <h2>Tabla de Inventario</h2>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Disponible</th>
+            </tr>
+            <tr>
+                <td>Cerveza Aguila</td>
+                <td>24</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>Ron Medellín</td>
+                <td>10</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>Papas Margarita</td>
+                <td>15</td>
+                <td>✘</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>📧 Escríbenos a <b>soporte@barstock.com</b></p>
+        <p>📍 Bogota - Colombia</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Bar Stock - @Andres Felipe Quiroz Rodriguez</p>
+    </footer>
+
+</body>
+</html>
